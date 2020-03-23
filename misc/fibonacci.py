@@ -1,3 +1,4 @@
+print("Enter the no. of terms to be printed")
 n = int(input())
 if(n<=0):
     print('Not possible')
