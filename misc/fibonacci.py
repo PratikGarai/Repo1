@@ -1,5 +1,6 @@
 print("Enter the no. of terms to be printed")
 n = int(input())
+c = 1   #conflict term
 if(n<=0):
     print('Not possible')
 else:
