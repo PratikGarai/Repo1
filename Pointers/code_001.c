@@ -14,5 +14,17 @@ int main()
 
 	printf("%d\n", p);
 	printf("%d\n", *p);
+	printf("%d\n", &a);
+
+	printf("\nChanging value through the pointer\n");
+	printf("%d\n", a);
+	*p = 12; 
+	printf("%d\n", a);
+
+	printf("\nChanging value through the variable and reading through pointer\n");
+	printf("%d\n", *p);
+	a = 14; 
+	printf("%d\n", *p);
+
 	return 0;
 }
