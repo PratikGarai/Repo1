@@ -7,6 +7,10 @@ int main()
 	char* a = "Boy";
 	char* c = "Hello";
 
+	b[0] = 'b'; 		// this is ok
+	// a[0] = 'b'; 		// this isn't, unsized string's 
+				// index based operations not allowed
+
 	printf("a : %s\n", a);
 	printf("b : %s\n", b);
 	printf("c : %s\n", c);
